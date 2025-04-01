@@ -23,11 +23,11 @@ Each `.npy` file contains **two main components**:
 - Data type: `float`
 - Content: Each pixel location is represented by a **5D one-hot encoded vector**, indicating the corresponding design category.
 - Design categories (0~4):
-  - `[1., 0., 0., 0., 0.]` represents **no grid unit (design category 0)**
-  - `[0., 1., 0., 0., 0.]` represents **grid unit for freely deformation (design category 1)**
-  - `[0., 0., 1., 0., 0.]` represents **grid unit for shrinkage (design category 2)**
-  - `[0., 0., 0., 1., 0.]` represents **grid unit for curve down (design category 3)**
-  - `[0., 0., 0., 0., 1.]` represents **grid unit for curve up (design category 4)**
+  - `[1., 0., 0., 0., 0.]` represents **no grid unit** (design category 0)
+  - `[0., 1., 0., 0., 0.]` represents **grid unit for freely deformation** (design category 1)
+  - `[0., 0., 1., 0., 0.]` represents **grid unit for shrinkage** (design category 2)
+  - `[0., 0., 0., 1., 0.]` represents **grid unit for curve down** (design category 3)
+  - `[0., 0., 0., 0., 1.]` represents **grid unit for curve up** (design category 4)
 
 
 
@@ -36,7 +36,7 @@ Each `.npy` file contains **two main components**:
 - **Deep learning modeling** (FCN)
 - **Image-based inverse design**
 - **Machine learning analysis**
-- **Research on combining 2D depth images with 3D design matrices**
+- **Research on combining depth images with 3D design matrices**
 
 This dataset enhances **data usability and storage efficiency**, making it suitable for **machine learning** and **design analysis** tasks.
 
