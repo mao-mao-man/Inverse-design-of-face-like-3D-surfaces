@@ -1,6 +1,6 @@
 # Inverse-design-of-face-like-3D-surfaces
 
-Parameterized Polynomial Mask Dataset is designed for training deep learning models (Fully Convolutional Networks) to establish the relationship between **2D grids (DesignMatrix5)** and **3D thin-shell structures (2DImage)**, accelerating the **inverse design** process for geometrically complex and highly personalized objects.
+Parameterized Polynomial Mask Dataset is designed for training deep learning models (Fully Convolutional Networks) to establish the relationship between **2D grid design (DesignMatrix5)** and **3D thin-shell structures (Depth Image)**, accelerating the **inverse design** process for geometrically complex and highly personalized objects.
 
 ## Dataset Structure
 
