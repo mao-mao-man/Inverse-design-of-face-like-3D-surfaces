@@ -23,11 +23,11 @@ Each `.npy` file contains **two main components**:
 - Data type: `float`
 - Content: Each pixel location is represented by a **5D one-hot encoded vector**, indicating the corresponding design category.
 - Design categories (0~4):
-  - `[1., 0., 0., 0., 0.]` represents **design category 0 (no grid unit)**
-  - `[0., 1., 0., 0., 0.]` represents **design category 1 (grid unit for freely deformation)**
-  - `[0., 0., 1., 0., 0.]` represents **design category 2 (grid unit for shrinkage)**
-  - `[0., 0., 0., 1., 0.]` represents **design category 3 (grid unit for curve down)**
-  - `[0., 0., 0., 0., 1.]` represents **design category 4 (grid unit for curve up)**
+  - `[1., 0., 0., 0., 0.]` represents **no grid unit (design category 0)**
+  - `[0., 1., 0., 0., 0.]` represents **grid unit for freely deformation (design category 1)**
+  - `[0., 0., 1., 0., 0.]` represents **grid unit for shrinkage (design category 2)**
+  - `[0., 0., 0., 1., 0.]` represents **grid unit for curve down (design category 3)**
+  - `[0., 0., 0., 0., 1.]` represents **grid unit for curve up (design category 4)**
 
 
 
