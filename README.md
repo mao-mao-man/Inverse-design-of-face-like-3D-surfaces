@@ -21,7 +21,7 @@ Each `.npy` file contains **two main components**:
 ### 2. DesignMatrix5 (Design Matrix)
 - Format: **3D array (99, 26, 5)**
 - Data type: `float`
-- Content: Each pixel location is represented by a **5D one-hot encoded vector**, indicating the corresponding design category.
+- Content: Each location in design matrix is represented by a **5D one-hot encoded vector**, indicating the corresponding design category.
 - Design categories (0~4):
   - `[1., 0., 0., 0., 0.]` represents **no grid unit** (design category 0)
   - `[0., 1., 0., 0., 0.]` represents **grid unit for freely deformation** (design category 1)
