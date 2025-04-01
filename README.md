@@ -1,12 +1,12 @@
 # Inverse-design-of-face-like-3D-surfaces
 
-Parameterized Polynomial Mask Dataset is designed for training deep learning models (FCN) to establish the relationship between **2D grids (DesignMatrix5)** and **3D thin-shell structures (2DImage)**, accelerating the *
+Parameterized Polynomial Mask Dataset is designed for training deep learning models (FCN) to establish the relationship between **2D grids (DesignMatrix5)** and **3D thin-shell structures (2DImage)**, accelerating the **inverse design** process for geometrically complex and highly personalized objects.
 
 ## Dataset Structure
 
 The **`Parameterized Polynomial Mask Dataset`** folder contains **100,000 mask design records**, with **60,000 records** publicly available for use. Each `.npy` file corresponds to **a unique mask design identifier**, indicated by the filename.
 
-Each `.npy` file includes **both 2DImage and DesignMatrix5** data.*inverse design** process for geometrically complex and highly personalized objects.
+Each `.npy` file includes **both 2DImage and DesignMatrix5** data.
 
 ## Dataset Content
 
