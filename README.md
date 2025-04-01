@@ -4,7 +4,7 @@ Parameterized Polynomial Mask Dataset is designed for training deep learning mod
 
 ## Dataset Structure
 
-The **`Parameterized Polynomial Mask Dataset`** folder contains **100,000 mask design records**, with **60,000 records** publicly available for use. Each `.npy` file corresponds to **a unique mask design **, indicated by the filename.
+The **`Parameterized Polynomial Mask Dataset`** folder contains **100,000 mask design records**, with **60,000 records** publicly available for use. Each `.npy` file corresponds to **a unique mask design**, indicated by the filename.
 
 Each `.npy` file includes **both 2DImage and DesignMatrix5** data.
 
