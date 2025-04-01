@@ -13,13 +13,13 @@ Each `.npy` file includes **both 2DImage and DesignMatrix5** data.
 Each `.npy` file contains **two main components**:
 
 ### 1. 2DImage (Depth Image)
-- Format: **2D array (height, width)**
+- Format: **2D array (101 height, 51 width)**
 - Data type: `float`
 - Content: Each pixel value represents depth information in the image, stored as a **grayscale image**.
 - Value range: Depends on the image encoding method.
 
 ### 2. DesignMatrix5 (Design Matrix)
-- Format: **3D array (height, width, 5)**
+- Format: **3D array (99, 26, 5)**
 - Data type: `float`
 - Content: Each pixel location is represented by a **5D one-hot encoded vector**, indicating the corresponding design category.
 - Design categories (0~4):
